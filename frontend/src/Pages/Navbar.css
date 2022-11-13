@@ -70,7 +70,7 @@
     /* width: 5rem;
     height: 5rem; */
 }
-@media (max-width:546px){
+@media (max-width:600px){
     /* .menu-item{
         display:none;
     } */
@@ -105,7 +105,7 @@
     justify-content: center;
     align-items: center; */
 }
-@media (max-width:546px){
+@media (max-width:600px){
     .menu-icon{
         display: block;
         margin-right: 2rem;

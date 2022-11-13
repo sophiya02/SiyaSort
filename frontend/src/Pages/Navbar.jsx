@@ -10,43 +10,31 @@ const Navbar = () => {
     
     return (
         <>
-            <nav className="main-nav position-fixed bg-light">
+            <nav className="main-nav bg-light navbar">
                 <div className="logo">
-                    <h2><span>U</span>niex</h2>
+                    <h2><span>S</span>iya</h2><h2> <span>S</span>ort</h2>
                 </div>
                 <div >
                     <ul className={showMediaIcon ? " mob-menu-link" : "menu-link"}>
                         <li className="menu-item-li">
-                            <NavLink to='/' activeClassName="active" className="menu-item">Home</NavLink>
+                            <NavLink to='/' activeclassname="active" className="menu-item">Home</NavLink>
                         </li>
                         <li className="menu-item-li">
-                            <NavLink to='/news' activeClassName="active" className="menu-item">News</NavLink>
-                        </li>
-                        <li className="menu-item-li">
-                            <NavLink to='/blog' activeClassName="active" className="menu-item">Blog</NavLink>
-                        </li>
-                        <li className="menu-item-li">
-                            <NavLink to='/explore/Gallery' activeClassName="active" className="menu-item">Gallery</NavLink>
-                        </li>
-                        <li className="menu-item-li">
-                            <NavLink to='/explore/Simulation' activeClassName="active" className="menu-item">Simulation</NavLink>
-                        </li>
-                        <li className="menu-item-li">
-                            <NavLink to='/explore/Videos' activeClassName="active" className="menu-item">Videos</NavLink>
+                            <NavLink to='/visualiser' activeclassname="active" className="menu-item">Visualiser</NavLink>
                         </li>
                     </ul>
                 </div>
                 <div className="log-reg">
                     <ul className="log-reg">
                         <li className="log-reg-li">
-                            <NavLink to='/login' activeClassName="active"><Tooltip title="Login">
+                            <NavLink to='/login' activeclassname="active"><Tooltip title="Login">
                                 <IconButton >
                                     <Input className="log"/>
                                 </IconButton>
                             </Tooltip></NavLink>
                         </li>
                         <li className="log-reg-li">
-                            <NavLink to='/register' activeClassName="active"><Tooltip title="Register">
+                            <NavLink to='/register' activeclassname="active"><Tooltip title="Register">
                                 <IconButton >
                                     <HowToReg className="reg"/>
                                 </IconButton>

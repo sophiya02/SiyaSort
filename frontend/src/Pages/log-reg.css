@@ -1,6 +1,6 @@
 .signup{
     /* border : 2px solid red; */
-    width: 75%;
+    width: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,8 @@
 } 
 .signup-content .reg-img{
     margin-left: -5rem;
-   padding-right:5rem
+   padding-right:5rem;
+   z-index: -1;
 }
 .signup-content .reg-img img{
     width: 25rem;
@@ -61,7 +62,7 @@
     text-align: center;
     margin-top: 2rem;
 }
-@media (max-width:546px){
+@media (max-width:599px){
     .signup .signup-content{
         display: flex;
         flex-direction: column;
